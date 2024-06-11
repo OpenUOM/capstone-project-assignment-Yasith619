@@ -58,6 +58,6 @@ export class AppServiceService {
   }
 
   deleteStudent(payload: Object){
-    return this.http.post(`/${this.ROOT_URL}api/deleteStudent`, payload)
+    return this.http.post(`/${this.ROOT_URL}/deleteStudent`, payload)
   }
 }
